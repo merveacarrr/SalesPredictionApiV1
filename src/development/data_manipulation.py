@@ -72,6 +72,9 @@ class DataManipulation:
 
         if {"unit_price_x", "quantity"}.issubset(df.columns):
             df["total_cost"] = df["unit_price_x"] * df["quantity"]
+            
+        elif {"unit_price_x", "quantity","discount"}.issubset(df.columns):
+            df["final_price"] = df["unit_price_x"] * df["quantity"] * (1 - df["discount"])
 
         return df
 
