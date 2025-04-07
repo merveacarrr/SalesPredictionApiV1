@@ -1,0 +1,78 @@
+product_id,final_price,category_id,product_name
+1,12788.1,1,Chai
+2,16355.96,1,Chang
+3,3044.0,2,Aniseed Syrup
+4,8567.9,2,Chef Anton's Cajun Seasoning
+5,5347.2,2,Chef Anton's Gumbo Mix
+6,7137.0,2,Grandma's Boysenberry Spread
+7,22044.3,7,Uncle Bob's Organic Dried Pears
+8,12772.0,2,Northwoods Cranberry Sauce
+9,7226.5,6,Mishi Kobe Niku
+10,20867.34,8,Ikura
+11,12901.77,4,Queso Cabrales
+12,12257.66,4,Queso Manchego La Pastora
+13,4960.44,8,Konbu
+14,7991.49,7,Tofu
+15,1784.825,2,Genen Shouyu
+16,17215.7755,3,Pavlova
+17,32698.38,6,Alice Mutton
+18,29171.875,8,Carnarvon Tigers
+19,5862.62,3,Teatime Chocolate Biscuits
+20,22563.36,3,Sir Rodney's Marmalade
+21,9104.0,3,Sir Rodney's Scones
+22,7122.36,5,Gustaf's Knäckebröd
+23,4601.7,5,Tunnbröd
+24,4504.365,1,Guaraná Fantástica
+25,3704.4,3,NuNuCa Nuß-Nougat-Creme
+26,19849.1445,3,Gumbär Gummibärchen
+27,15099.875,3,Schoggi Schokolade
+28,25696.64,7,Rössle Sauerkraut
+29,80368.672,6,Thüringer Rostbratwurst
+30,13424.1975,8,Nord-Ost Matjeshering
+31,14920.875,4,Gorgonzola Telino
+32,8404.16,4,Mascarpone Fabioli
+33,1648.125,4,Geitost
+34,6350.4,1,Sasquatch Ale
+35,13644.0,1,Steeleye Stout
+36,13458.460000000001,8,Inlagd Sill
+37,2688.4,8,Gravad lax
+38,141396.735,1,Côte de Blaye
+39,12294.539999999999,1,Chartreuse verte
+40,17910.63,8,Boston Crab Meat
+41,8680.345000000001,8,Jack's New England Clam Chowder
+42,8575.0,5,Singaporean Hokkien Fried Mee
+43,23526.7,1,Ipoh Coffee
+44,9915.945,2,Gula Malacca
+45,4338.175,8,Rogede sild
+46,5883.0,8,Spegesild
+47,3958.08,3,Zaanse koeken
+48,1368.7125,3,Chocolade
+49,9244.6,3,Maxilaku
+50,3437.6875,3,Valkoinen suklaa
+51,41819.65,7,Manjimup Dried Apples
+52,3232.95,5,Filo Mix
+53,20574.17,6,Perth Pasties
+54,4728.2375,6,Tourtière
+55,17426.4,6,Pâté chinois
+56,42593.06,5,Gnocchi di nonna Alice
+57,7661.55,5,Ravioli Angelo
+58,5881.675,8,Escargots de Bourgogne
+59,71155.7,4,Raclette Courdavault
+60,46825.48,4,Camembert Pierrot
+61,14352.6,2,Sirop d'érable
+62,47234.97,3,Tarte au sucre
+63,16701.095,2,Vegie-spread
+64,21957.9675,5,Wimmers gute Semmelknödel
+65,13869.89,2,Louisiana Fiery Hot Pepper Sauce
+66,3383.0,2,Louisiana Hot Spiced Okra
+67,2396.8,1,Laughing Lumberjack Lager
+68,8714.0,3,Scottish Longbreads
+69,21942.36,4,Gudbrandsdalsost
+70,10672.65,1,Outback Lager
+71,19551.025,4,Flotemysost
+72,24900.13,4,Mozzarella di Giovanni
+73,3997.2,8,Röd Kaviar
+74,2432.5,7,Longlife Tofu
+75,8177.49,1,Rhönbräu Klosterbier
+76,15760.44,1,Lakkalikööri
+77,9171.63,2,Original Frankfurter grüne Soße
