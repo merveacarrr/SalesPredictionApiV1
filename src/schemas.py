@@ -15,18 +15,20 @@ class PredictionInput(BaseModel):
     country: str = Field(..., example="USA", description="Müşterinin bulunduğu ülke")
     order_date: str = Field(..., example="2023-01-01", description="Sipariş tarihi (YYYY-MM-DD formatında)")
     product_id: int = Field(..., example=12, description="Ürün ID’si")
+    unit_price_x: float = Field(..., example=18.0, description="Ürün birim fiyatı")
     quantity: int = Field(..., example=20, description="Sipariş edilen miktar")
     discount: float = Field(..., example=0.05, description="İndirimin oranı (0 ile 1 arasında)")
 
     class Config:
         schema_extra = {
             "example": {
-                "customer_id":3,
+                "customer_id": 3,
                 "category_id": 1,
                 "contact_title": "Sales Representative",
                 "country": "USA",
                 "order_date": "2023-01-01",
                 "product_id": 12,
+                "unit_price_x": 18.0,
                 "quantity": 20,
                 "discount": 0.05
             }
