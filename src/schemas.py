@@ -27,7 +27,6 @@ class PredictionInput(BaseModel):
                 "country": "USA",
                 "order_date": "2023-01-01",
                 "product_id": 12,
-                "unit_price": 18.99,
                 "quantity": 20,
                 "discount": 0.05
             }
