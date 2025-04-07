@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 import pandas as pd
 
-DATABASE_URL = "postgresql+psycopg2://postgres:meri3516@localhost/postgres"
+DATABASE_URL = "postgresql+psycopg2://user_name:password@localhost:port/server_name"
 
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
