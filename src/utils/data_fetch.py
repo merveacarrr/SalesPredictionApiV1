@@ -8,7 +8,7 @@ from development.data_manipulation import DataManipulation
 
 class DataFetch:
     def __init__(self):
-        self.engine = create_engine("postgresql://user_name:password@localhost:5432/server_name")
+        self.engine = create_engine("postgresql://postgres:meri3516@localhost:5432/postgres")
     
     def fetch_data(self):
         df_orders = pd.read_sql("SELECT * FROM orders", self.engine)
@@ -18,14 +18,15 @@ class DataFetch:
         df_categories = pd.read_sql("SELECT * FROM categories", self.engine)
 
         # Merge data
-        df_order_details['final_price'] = df_order_details['unit_price'] * df_order_details['quantity'] * (1 - df_order_details['discount'])
+        df_order_details['final_price'] = df_order_details['unit_price'] * df_order_details['quantity'] * (1 - df_order_details['discount']) 
+        df_order_details['total_cost'] = df_order_details['unit_price'] * df_order_details['quantity']
         df_merged = pd.merge(df_order_details, df_orders, on='order_id', how='inner')
         df_merged = pd.merge(df_merged, df_customers, on='customer_id', how='inner')
         df_merged = pd.merge(df_merged, df_products, on='product_id', how='inner')
         df_merged = pd.merge(df_merged, df_categories, on='category_id', how='inner')
 
         # Select columns
-        df_merged = df_merged[["category_id", "contact_title", "country", "order_date", "product_id","product_name", "unit_price_x", "quantity", "discount", "final_price"]]
+        df_merged = df_merged[["category_id", "contact_title", "country", "order_date", "product_id","product_name", "unit_price_x", "quantity", "discount", "final_price","total_cost"]]
         return df_merged
 
 
