@@ -8,7 +8,7 @@ from development.data_manipulation import DataManipulation
 
 class DataFetch:
     def __init__(self):
-        self.engine = create_engine("postgresql://postgres:meri3516@localhost:5432/postgres")
+        self.engine = create_engine("postgresql://user_name:password@localhost:5432/server_name")
     
     def fetch_data(self):
         df_orders = pd.read_sql("SELECT * FROM orders", self.engine)
